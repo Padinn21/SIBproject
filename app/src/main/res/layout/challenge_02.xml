@@ -13,7 +13,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="10dp"
-        android:hint="Cost Of Service"
+        android:hint="@string/cost_service"
         android:inputType="number"
         android:textColorHint="#C5BFBF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,9 +28,9 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="10dp"
-        android:text="How Was The Service?"
+        android:text="@string/how_service"
         android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
@@ -51,21 +51,21 @@
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:text="Excelent (20%)"
+            android:text="@string/excelent"
             android:textColor="@color/white" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:text="Good (18%)"
+            android:text="@string/good"
             android:textColor="@color/white" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:text="Ok (15%)"
+            android:text="@string/ok"
             android:textColor="@color/white" />
 
 
@@ -78,7 +78,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginEnd="10dp"
         android:minHeight="48dp"
-        android:text="Round Up Tip?"
+        android:text="@string/roundUp"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,8 +93,8 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="10dp"
-        android:text="Calculate"
-        android:textSize="18dp"
+        android:text="@string/calculate"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/switch1" />
@@ -106,7 +106,7 @@
         android:layout_marginStart="70dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="10dp"
-        android:text="Tip Amount"
+        android:text="@string/tipAmount"
         android:textColor="#C5BFBF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -121,7 +121,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/money" />
+        app:srcCompat="@mipmap/money"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

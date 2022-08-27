@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">ChallengeProject02</string>
+    <string name="app_name">Tip Time</string>
+    <string name="cost_service">Cost Of Service</string>
+    <string name="how_service">How Was The Service?</string>
+    <string name="excelent">Excelent (20%)</string>
+    <string name="good">Good (18%)</string>
+    <string name="ok">Ok (15%)</string>
+    <string name="roundUp">Round Up Tip?</string>
+    <string name="calculate">Calculate</string>
+    <string name="tipAmount">Tip Amount</string>
 </resources>
